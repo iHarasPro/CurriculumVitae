@@ -1,0 +1,22 @@
+/* ------------------------------------------------------------------------------------------ */
+/* CSS Reset
+/* ------------------------------------------------------------------------------------------ */
+
+*,*::before,*::after {
+  box-sizing: border-box;                         /* Simplify Size Calculations               */
+}
+
+* {
+  margin:  0;                                     /* Remove default Margin values             */
+  padding: 0;                                     /* Remove default Padding values            */
+}
+
+h1,h2,h3,h4,h5,h6 {
+  text-wrap: balance;                             /* Balance the wrapped lines on Headings    */
+}
+
+p,li {
+  text-wrap: pretty;                              /* Prevent Orphans in Body Text             */
+}
+
+/* ------------------------------------------------------------------------------------------ */
