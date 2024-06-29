@@ -20,3 +20,11 @@ p,li {
 }
 
 /* ------------------------------------------------------------------------------------------ */
+
+body {
+  display: grid;
+  grid-template:
+    "name info" auto
+    "func chro" 1fr
+    / 1fr auto;
+}
